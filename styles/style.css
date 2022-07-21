@@ -19,6 +19,7 @@ body{
     padding: 0 30px;
 }
 .banner-title{
+   
     width: 531px;
     height: 424px;
     padding: 30px;
@@ -65,4 +66,14 @@ footer{
 }
 .box{
     display: flex;
+}
+
+/* Media Queries */
+@media only screen and (max-width:668px) {
+    .banner{
+      grid-template-columns: repeat(1, 1fr); 
+    }
+    .banner-title, .menu{
+        flex-direction: column;
+    }
 }
