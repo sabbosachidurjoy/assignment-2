@@ -1,0 +1,68 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* banner styles */
+    
+.header{
+    font-size: 50px;
+}
+.banner{
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0 30px;
+}
+.banner-title{
+    width: 531px;
+    height: 424px;
+    padding: 30px;
+    color: #fff
+    
+}
+.banner-image img {
+    width: 581px;
+    height: 613px;
+    padding: 40px;
+}
+.watch{
+    color: #fff;
+    background-color: #DD0000;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.menu{
+    width: 312px;
+    height: 312px;
+}
+
+/* player start */
+.player{
+    width: 312px;
+    height: 362px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+/* footer area */
+footer{
+    width: 1600px;
+    height: 444px;
+    background-color: #161616;
+    color: #fff;
+
+}
+.goal{
+    text-align: center;
+    margin: 40px;
+}
+.box{
+    display: flex;
+}
